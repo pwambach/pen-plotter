@@ -52,10 +52,6 @@ const lines = Array.from({length: n})
 
 console.log(getBounds2d(lines));
 
-// lines.push(
-//   [[0, 0], [0, height], [width, height], [width, 0], [0, 0]]
-// );
-
 // fs.writeFileSync('preview.svg', linesToSvg(lines, {
 //   viewBoxXmin: -20,
 //   viewBoxYmin: -20,
